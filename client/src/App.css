@@ -1,0 +1,76 @@
+* {
+    color: rgb(222, 125, 113);
+    background-color: rgb(12, 18, 22);
+}
+
+.components {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.buttonEdit, .buttonDelete, .playerInput, .name, .genButton {
+    font-size: x-large;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.playerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    margin: 20px;
+}
+
+.sidebarCont {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+    margin-right: 25px;
+    height: 100%;
+}
+
+.playerInput {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.bracketDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+
+.bracket {
+    width: 75%;
+}
+
+.genButton {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+.buttonEdit, .buttonDelete {
+    width: 100px;
+    margin: 10px;
+}
+
+.errors {
+    color: red;
+    font-size: larger;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
